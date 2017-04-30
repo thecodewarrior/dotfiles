@@ -1,0 +1,36 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+" Plugins ==========================================================================================
+
+" Integration ——————————————————————————————————————————————————————————————————————————————————————
+Plugin 'scrooloose/nerdtree' " nice file browser
+Plugin 'Xuyuanp/nerdtree-git-plugin' " git status markers for nerdtree
+Plugin 'mattn/gist-vim' " publish and edit gists from vim
+
+" Text editing —————————————————————————————————————————————————————————————————————————————————————
+Plugin 'tpope/vim-surround' " manipulate surrounding elements like quotes, brackets, or html tags
+" Plugin 'scrooloose/syntastic' " syntax checking for a plethora of languages
+" Plugin 'godlygeek/tabular' " align equal signs or whatever with a single command
+
+" QOL ———————————————————————————————————————————————————————————————————————————————————————————————
+Plugin 'ctrlpvim/ctrlp.vim' " quick fuzzy file search
+Plugin 'easymotion/vim-easymotion' " instead of using 3w, press <leader><leader>w
+" Plugin 'thaerkh/vim-workspace' " persistent workspaces
+" Plugin 'terryma/vim-multiple-cursors' " multiple cursors like sublimetext
+
+" Visual ———————————————————————————————————————————————————————————————————————————————————————————
+Plugin 'vim-airline/vim-airline' " nice statusline
+Plugin 'vim-airline/vim-airline-themes' " themes for above
+" Plugin 'edkolev/tmuxline.vim' " applies the airline theme to the tmux statusbar as well
+Plugin 'bling/vim-bufferline' " show buffer list in statusline
+" Plugin 'chriskempson/base16-vim'
+
+"/ Plugins =========================================================================================
+
+call vundle#end()            " required
+filetype plugin indent on    " required
