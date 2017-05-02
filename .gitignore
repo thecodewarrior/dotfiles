@@ -1,3 +1,3 @@
 .vim/vendor/bundle/*
-~.vim/vendor/bundle/Vundle.vim
+!~.vim/vendor/bundle/Vundle.vim
 .DS_Store
