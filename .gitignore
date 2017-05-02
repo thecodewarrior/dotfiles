@@ -1,3 +1,4 @@
 .vim/vendor/bundle/*
 !~.vim/vendor/bundle/Vundle.vim
+.base16_theme
 .DS_Store
