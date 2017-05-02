@@ -10,7 +10,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Integration ——————————————————————————————————————————————————————————————————————————————————————
 Plugin 'scrooloose/nerdtree' " nice file browser
 Plugin 'Xuyuanp/nerdtree-git-plugin' " git status markers for nerdtree
+Plugin 'mattn/webapi-vim' " required for gist.vim
 Plugin 'mattn/gist-vim' " publish and edit gists from vim
+" Plugin 'lervag/vimtex' " LaTeX syntax
 
 " Text editing —————————————————————————————————————————————————————————————————————————————————————
 Plugin 'tpope/vim-surround' " manipulate surrounding elements like quotes, brackets, or html tags
