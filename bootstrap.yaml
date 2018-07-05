@@ -1,0 +1,35 @@
+casks:
+- alfred
+- firefox
+- flux
+- font-fira-code
+- fork
+- iterm2
+- jadengeller-helium
+- java
+- java8
+- jetbrains-toolbox
+- karabiner-elements
+- qlstephen
+- visualvm
+- yed
+formulas:
+- cloc
+- cmus
+- fish
+- gradle
+- neovim
+- python
+- rsync
+symlinks:
+    fish/*: ~/.config/fish/
+    iterm2/*: ~/.config/iterm2/
+    karabiner/*: ~/.config/karabiner/
+    neovim-plug/*: ~/.local/share/nvim/site/autoload/
+    nvim/*: ~/.config/nvim/
+taps:
+- beeftornado/rmtree
+- homebrew/cask
+- homebrew/cask-fonts
+- homebrew/cask-versions
+- homebrew/core

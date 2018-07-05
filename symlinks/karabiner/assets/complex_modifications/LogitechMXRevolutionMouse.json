@@ -1,0 +1,33 @@
+{
+	"title": "Logitech MX Revolution Config",
+	"rules": [
+		{
+			"description": "Change button12 to button3",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"pointing_button": "button12",
+						"optional": [
+							"caps_lock",
+							"left_control",
+							"left_shift",
+							"left_option",
+							"left_command",
+							"right_control",
+							"right_shift",
+							"right_option",
+							"right_command",
+							"fn"
+						]
+					},
+					"to": [
+						{
+							"pointing_button": "button3"
+						}
+					]
+				}
+			]
+		}
+	]
+}
